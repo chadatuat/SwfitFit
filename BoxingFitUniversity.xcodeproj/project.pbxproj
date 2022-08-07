@@ -96,6 +96,7 @@
 				81BEFDAF2890B8820057D654 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		81BEFDAF2890B8820057D654 /* Products */ = {
 			isa = PBXGroup;
