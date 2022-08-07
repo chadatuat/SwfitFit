@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		812C6C3B289EA886004DF709 /* WorkoutElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812C6C3A289EA886004DF709 /* WorkoutElement.swift */; };
+		812C6C3D289EA895004DF709 /* ListOfWorkOuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812C6C3C289EA895004DF709 /* ListOfWorkOuts.swift */; };
+		812C6C3F289EB66C004DF709 /* AccountExists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812C6C3E289EB66C004DF709 /* AccountExists.swift */; };
+		812C6C41289EB678004DF709 /* LoginFailed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812C6C40289EB678004DF709 /* LoginFailed.swift */; };
+		812C6C43289EB799004DF709 /* SelectWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812C6C42289EB799004DF709 /* SelectWorkout.swift */; };
+		812C6C45289EC617004DF709 /* CreateNewAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812C6C44289EC617004DF709 /* CreateNewAccount.swift */; };
+		812C6C47289EC8B9004DF709 /* PasswordReset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812C6C46289EC8B9004DF709 /* PasswordReset.swift */; };
+		81BEFDB22890B8820057D654 /* BoxingFitUniversityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BEFDB12890B8820057D654 /* BoxingFitUniversityApp.swift */; };
+		81BEFDB42890B8820057D654 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BEFDB32890B8820057D654 /* ContentView.swift */; };
+		81BEFDB62890B8850057D654 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81BEFDB52890B8850057D654 /* Assets.xcassets */; };
+		81BEFDB92890B8850057D654 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81BEFDB82890B8850057D654 /* Preview Assets.xcassets */; };
+		81BEFDC32890B8850057D654 /* BoxingFitUniversityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BEFDC22890B8850057D654 /* BoxingFitUniversityTests.swift */; };
+		81BEFDCD2890B8850057D654 /* BoxingFitUniversityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BEFDCC2890B8850057D654 /* BoxingFitUniversityUITests.swift */; };
+		81BEFDCF2890B8850057D654 /* BoxingFitUniversityUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BEFDCE2890B8850057D654 /* BoxingFitUniversityUITestsLaunchTests.swift */; };
+		81BEFDDC2890BB1E0057D654 /* BarcodeMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BEFDDB2890BB1E0057D654 /* BarcodeMenu.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81BEFDBF2890B8850057D654 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81BEFDA62890B8820057D654 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81BEFDAD2890B8820057D654;
+			remoteInfo = BoxingFitUniversity;
+		};
+		81BEFDC92890B8850057D654 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81BEFDA62890B8820057D654 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81BEFDAD2890B8820057D654;
+			remoteInfo = BoxingFitUniversity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		812C6C3A289EA886004DF709 /* WorkoutElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutElement.swift; sourceTree = "<group>"; };
+		812C6C3C289EA895004DF709 /* ListOfWorkOuts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfWorkOuts.swift; sourceTree = "<group>"; };
+		812C6C3E289EB66C004DF709 /* AccountExists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountExists.swift; sourceTree = "<group>"; };
+		812C6C40289EB678004DF709 /* LoginFailed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFailed.swift; sourceTree = "<group>"; };
+		812C6C42289EB799004DF709 /* SelectWorkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectWorkout.swift; sourceTree = "<group>"; };
+		812C6C44289EC617004DF709 /* CreateNewAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewAccount.swift; sourceTree = "<group>"; };
+		812C6C46289EC8B9004DF709 /* PasswordReset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordReset.swift; sourceTree = "<group>"; };
+		81BEFDAE2890B8820057D654 /* BoxingFitUniversity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoxingFitUniversity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81BEFDB12890B8820057D654 /* BoxingFitUniversityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxingFitUniversityApp.swift; sourceTree = "<group>"; };
+		81BEFDB32890B8820057D654 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		81BEFDB52890B8850057D654 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81BEFDB82890B8850057D654 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		81BEFDBE2890B8850057D654 /* BoxingFitUniversityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoxingFitUniversityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81BEFDC22890B8850057D654 /* BoxingFitUniversityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxingFitUniversityTests.swift; sourceTree = "<group>"; };
+		81BEFDC82890B8850057D654 /* BoxingFitUniversityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoxingFitUniversityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81BEFDCC2890B8850057D654 /* BoxingFitUniversityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxingFitUniversityUITests.swift; sourceTree = "<group>"; };
+		81BEFDCE2890B8850057D654 /* BoxingFitUniversityUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxingFitUniversityUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		81BEFDDB2890BB1E0057D654 /* BarcodeMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeMenu.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81BEFDAB2890B8820057D654 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81BEFDBB2890B8850057D654 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81BEFDC52890B8850057D654 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81BEFDA52890B8820057D654 = {
+			isa = PBXGroup;
+			children = (
+				81BEFDB02890B8820057D654 /* BoxingFitUniversity */,
+				81BEFDC12890B8850057D654 /* BoxingFitUniversityTests */,
+				81BEFDCB2890B8850057D654 /* BoxingFitUniversityUITests */,
+				81BEFDAF2890B8820057D654 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81BEFDAF2890B8820057D654 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81BEFDAE2890B8820057D654 /* BoxingFitUniversity.app */,
+				81BEFDBE2890B8850057D654 /* BoxingFitUniversityTests.xctest */,
+				81BEFDC82890B8850057D654 /* BoxingFitUniversityUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81BEFDB02890B8820057D654 /* BoxingFitUniversity */ = {
+			isa = PBXGroup;
+			children = (
+				81BEFDDB2890BB1E0057D654 /* BarcodeMenu.swift */,
+				81BEFDB12890B8820057D654 /* BoxingFitUniversityApp.swift */,
+				81BEFDB32890B8820057D654 /* ContentView.swift */,
+				81BEFDB52890B8850057D654 /* Assets.xcassets */,
+				81BEFDB72890B8850057D654 /* Preview Content */,
+				812C6C3A289EA886004DF709 /* WorkoutElement.swift */,
+				812C6C3C289EA895004DF709 /* ListOfWorkOuts.swift */,
+				812C6C3E289EB66C004DF709 /* AccountExists.swift */,
+				812C6C40289EB678004DF709 /* LoginFailed.swift */,
+				812C6C42289EB799004DF709 /* SelectWorkout.swift */,
+				812C6C44289EC617004DF709 /* CreateNewAccount.swift */,
+				812C6C46289EC8B9004DF709 /* PasswordReset.swift */,
+			);
+			path = BoxingFitUniversity;
+			sourceTree = "<group>";
+		};
+		81BEFDB72890B8850057D654 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				81BEFDB82890B8850057D654 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		81BEFDC12890B8850057D654 /* BoxingFitUniversityTests */ = {
+			isa = PBXGroup;
+			children = (
+				81BEFDC22890B8850057D654 /* BoxingFitUniversityTests.swift */,
+			);
+			path = BoxingFitUniversityTests;
+			sourceTree = "<group>";
+		};
+		81BEFDCB2890B8850057D654 /* BoxingFitUniversityUITests */ = {
+			isa = PBXGroup;
+			children = (
+				81BEFDCC2890B8850057D654 /* BoxingFitUniversityUITests.swift */,
+				81BEFDCE2890B8850057D654 /* BoxingFitUniversityUITestsLaunchTests.swift */,
+			);
+			path = BoxingFitUniversityUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81BEFDAD2890B8820057D654 /* BoxingFitUniversity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81BEFDD22890B8850057D654 /* Build configuration list for PBXNativeTarget "BoxingFitUniversity" */;
+			buildPhases = (
+				81BEFDAA2890B8820057D654 /* Sources */,
+				81BEFDAB2890B8820057D654 /* Frameworks */,
+				81BEFDAC2890B8820057D654 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BoxingFitUniversity;
+			productName = BoxingFitUniversity;
+			productReference = 81BEFDAE2890B8820057D654 /* BoxingFitUniversity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81BEFDBD2890B8850057D654 /* BoxingFitUniversityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81BEFDD52890B8850057D654 /* Build configuration list for PBXNativeTarget "BoxingFitUniversityTests" */;
+			buildPhases = (
+				81BEFDBA2890B8850057D654 /* Sources */,
+				81BEFDBB2890B8850057D654 /* Frameworks */,
+				81BEFDBC2890B8850057D654 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81BEFDC02890B8850057D654 /* PBXTargetDependency */,
+			);
+			name = BoxingFitUniversityTests;
+			productName = BoxingFitUniversityTests;
+			productReference = 81BEFDBE2890B8850057D654 /* BoxingFitUniversityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81BEFDC72890B8850057D654 /* BoxingFitUniversityUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81BEFDD82890B8850057D654 /* Build configuration list for PBXNativeTarget "BoxingFitUniversityUITests" */;
+			buildPhases = (
+				81BEFDC42890B8850057D654 /* Sources */,
+				81BEFDC52890B8850057D654 /* Frameworks */,
+				81BEFDC62890B8850057D654 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81BEFDCA2890B8850057D654 /* PBXTargetDependency */,
+			);
+			name = BoxingFitUniversityUITests;
+			productName = BoxingFitUniversityUITests;
+			productReference = 81BEFDC82890B8850057D654 /* BoxingFitUniversityUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81BEFDA62890B8820057D654 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					81BEFDAD2890B8820057D654 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					81BEFDBD2890B8850057D654 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 81BEFDAD2890B8820057D654;
+					};
+					81BEFDC72890B8850057D654 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 81BEFDAD2890B8820057D654;
+					};
+				};
+			};
+			buildConfigurationList = 81BEFDA92890B8820057D654 /* Build configuration list for PBXProject "BoxingFitUniversity" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81BEFDA52890B8820057D654;
+			productRefGroup = 81BEFDAF2890B8820057D654 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81BEFDAD2890B8820057D654 /* BoxingFitUniversity */,
+				81BEFDBD2890B8850057D654 /* BoxingFitUniversityTests */,
+				81BEFDC72890B8850057D654 /* BoxingFitUniversityUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81BEFDAC2890B8820057D654 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81BEFDB92890B8850057D654 /* Preview Assets.xcassets in Resources */,
+				81BEFDB62890B8850057D654 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81BEFDBC2890B8850057D654 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81BEFDC62890B8850057D654 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81BEFDAA2890B8820057D654 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				812C6C45289EC617004DF709 /* CreateNewAccount.swift in Sources */,
+				812C6C41289EB678004DF709 /* LoginFailed.swift in Sources */,
+				812C6C43289EB799004DF709 /* SelectWorkout.swift in Sources */,
+				812C6C3D289EA895004DF709 /* ListOfWorkOuts.swift in Sources */,
+				812C6C3B289EA886004DF709 /* WorkoutElement.swift in Sources */,
+				81BEFDDC2890BB1E0057D654 /* BarcodeMenu.swift in Sources */,
+				812C6C47289EC8B9004DF709 /* PasswordReset.swift in Sources */,
+				812C6C3F289EB66C004DF709 /* AccountExists.swift in Sources */,
+				81BEFDB42890B8820057D654 /* ContentView.swift in Sources */,
+				81BEFDB22890B8820057D654 /* BoxingFitUniversityApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81BEFDBA2890B8850057D654 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81BEFDC32890B8850057D654 /* BoxingFitUniversityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81BEFDC42890B8850057D654 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81BEFDCD2890B8850057D654 /* BoxingFitUniversityUITests.swift in Sources */,
+				81BEFDCF2890B8850057D654 /* BoxingFitUniversityUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81BEFDC02890B8850057D654 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81BEFDAD2890B8820057D654 /* BoxingFitUniversity */;
+			targetProxy = 81BEFDBF2890B8850057D654 /* PBXContainerItemProxy */;
+		};
+		81BEFDCA2890B8850057D654 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81BEFDAD2890B8820057D654 /* BoxingFitUniversity */;
+			targetProxy = 81BEFDC92890B8850057D654 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		81BEFDD02890B8850057D654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81BEFDD12890B8850057D654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81BEFDD32890B8850057D654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BoxingFitUniversity/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BoxingFitUniversity.BoxingFitUniversity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81BEFDD42890B8850057D654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BoxingFitUniversity/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BoxingFitUniversity.BoxingFitUniversity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		81BEFDD62890B8850057D654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BoxingFitUniversity.BoxingFitUniversityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoxingFitUniversity.app/BoxingFitUniversity";
+			};
+			name = Debug;
+		};
+		81BEFDD72890B8850057D654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BoxingFitUniversity.BoxingFitUniversityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoxingFitUniversity.app/BoxingFitUniversity";
+			};
+			name = Release;
+		};
+		81BEFDD92890B8850057D654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BoxingFitUniversity.BoxingFitUniversityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BoxingFitUniversity;
+			};
+			name = Debug;
+		};
+		81BEFDDA2890B8850057D654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BoxingFitUniversity.BoxingFitUniversityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BoxingFitUniversity;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81BEFDA92890B8820057D654 /* Build configuration list for PBXProject "BoxingFitUniversity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81BEFDD02890B8850057D654 /* Debug */,
+				81BEFDD12890B8850057D654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81BEFDD22890B8850057D654 /* Build configuration list for PBXNativeTarget "BoxingFitUniversity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81BEFDD32890B8850057D654 /* Debug */,
+				81BEFDD42890B8850057D654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81BEFDD52890B8850057D654 /* Build configuration list for PBXNativeTarget "BoxingFitUniversityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81BEFDD62890B8850057D654 /* Debug */,
+				81BEFDD72890B8850057D654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81BEFDD82890B8850057D654 /* Build configuration list for PBXNativeTarget "BoxingFitUniversityUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81BEFDD92890B8850057D654 /* Debug */,
+				81BEFDDA2890B8850057D654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81BEFDA62890B8820057D654 /* Project object */;
+}
